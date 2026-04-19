@@ -21,3 +21,47 @@ The application simulates a Car system where the Engine dependency is injected u
 ---
 
 ## 🏗️ Project Structure
+src/
+├── App.java
+├── Car.java
+├── IEngine.java
+├── PetrolEngine.java
+└── DieselEngine.java
+
+---
+
+## ⚙️ How It Works
+
+- `Car` depends on `IEngine`
+- Spring injects the required implementation automatically
+- Configuration is defined in `applicationContext.xml`
+
+---
+
+## ▶️ How to Run
+
+1. Configure Spring XML (`Beans.xml`)
+2. Run `App.java`
+3. Output will display the selected engine in use
+
+---
+
+## 🎯 Key Benefits
+
+- Eliminates tight coupling
+- Improves flexibility and scalability
+- Makes switching implementations easy
+
+---
+
+## 🚀 Future Improvements
+
+- Add Annotation-based configuration (`@Autowired`)
+- Migrate to Java-based config
+- Integrate Spring Boot
+
+---
+
+## 👨‍💻 Author
+
+Siddharth Gaikwad
