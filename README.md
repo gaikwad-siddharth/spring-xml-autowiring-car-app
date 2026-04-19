@@ -34,7 +34,7 @@ src/
 
 - `Car` depends on `IEngine`
 - Spring injects the required implementation automatically
-- Configuration is defined in `applicationContext.xml`
+- Configuration is defined in `Beans.xml`
 
 ---
 
